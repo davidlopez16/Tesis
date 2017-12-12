@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.miapp.proyectodegrado.PresupuestoActivity">
+    <TextView
+        android:id="@+id/lblActividad"
+        android:layout_width="214dp"
+        android:layout_height="39dp"
+        android:text="Actividad"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/edit_actividad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <TextView
+        android:id="@+id/lblUnidad"
+        android:layout_width="214dp"
+        android:layout_height="39dp"
+        android:text="Unidad"
+        tools:layout_editor_absoluteY="101dp"
+        tools:layout_editor_absoluteX="32dp" />
+    <EditText
+        android:id="@+id/edit_unidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteY="114dp"
+        tools:layout_editor_absoluteX="32dp" />
+    <TextView
+        android:id="@+id/lblCantidad"
+        android:layout_width="214dp"
+        android:layout_height="39dp"
+        android:text="Cantidad"
+        tools:layout_editor_absoluteY="173dp"
+        tools:layout_editor_absoluteX="32dp" />
+    <EditText
+        android:id="@+id/edit_cantidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteY="183dp"
+        tools:layout_editor_absoluteX="32dp" />
+    <TextView
+        android:id="@+id/lblPrecioMO"
+        android:layout_width="214dp"
+        android:layout_height="39dp"
+        android:text="Precio MO."
+        tools:layout_editor_absoluteY="236dp"
+        tools:layout_editor_absoluteX="32dp" />
+    <EditText
+        android:id="@+id/edit_precioMO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteY="244dp"
+        tools:layout_editor_absoluteX="32dp" />
+    <TextView
+        android:id="@+id/lblSubtotal"
+        android:layout_width="214dp"
+        android:layout_height="39dp"
+        android:text="Sub-Total"
+        tools:layout_editor_absoluteY="287dp"
+        tools:layout_editor_absoluteX="32dp" />
+
+</android.support.constraint.ConstraintLayout>
